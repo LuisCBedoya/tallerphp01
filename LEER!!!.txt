@@ -1,0 +1,61 @@
+Endpoints tabla1
+Get:
+
+http://127.0.0.1/tallerphp01/endpoints/table01/get.php
+http://127.0.0.1/tallerphp01/endpoints/table01/get.php?id=11
+
+post:
+
+post_create:
+http://127.0.0.1/tallerphp01/endpoints/table01/post.create.php
+
+post_update:
+http://127.0.0.1/tallerphp01/endpoints/table01/post.update.php
+
+post_delete:
+http://127.0.0.1/tallerphp01/endpoints/table01/post.delete.php
+
+
+Endpoints tabla2
+
+Get:
+http://127.0.0.1/tallerphp01/endpoints/table02/get.php
+http://127.0.0.1/tallerphp01/endpoints/table02/get.php?id=2
+
+post_create:
+http://127.0.0.1/tallerphp01/endpoints/table02/post.create.php
+
+
+post_update:
+http://127.0.0.1/tallerphp01/endpoints/table02/post.update.php
+
+
+
+post_delete:
+http://127.0.0.1/tallerphp01/endpoints/table02/post.delete.php
+
+
+
+Formato:
+
+tabla 1:
+{
+"id": "6",
+"nombre": "Omar",
+"cedula": "4000001",
+"email": "lectus.a.sollicitudin@protonmail.edu"
+}
+
+tabla 2:
+{
+"id": "6",
+"nombre_abogado": "harold garcia",
+"email_abogado": "lacus.vestibulum@gmail.com",
+"id_cliente": "2",
+"tipo_caso": "violacion",
+"inicio_caso": "2001-01-21 10:00:00",
+"cierre_caso": "2014-01-20",
+"precio_caso": "32.00000",
+"numero_serie": "2505"
+}
+
